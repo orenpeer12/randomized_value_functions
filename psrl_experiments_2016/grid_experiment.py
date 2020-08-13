@@ -23,8 +23,8 @@ if __name__ == '__main__':
     '''
     # Take in command line flags
     parser = argparse.ArgumentParser(description='Run tabular RL experiment')
-    parser.add_argument('--gridSize', help='size of grid', type=int, default=10)
-    parser.add_argument('--epLen', help='episode length', type=int, default=20)
+    parser.add_argument('--gridSize', help='size of grid', type=int, default=7)
+    parser.add_argument('--epLen', help='episode length', type=int, default=14)
     parser.add_argument('--rewardVar', help='reward variance', type=float, default=0)
     parser.add_argument('--pNoise', help='size of grid', type=float, default=0)
     parser.add_argument('--alg', help='Agent constructor', type=str, default="UCRL2")

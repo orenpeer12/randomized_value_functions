@@ -1,0 +1,1242 @@
+     0: >>> E[0:00:00]-R[?]: Return=    -1.006, Steps=6.64, Features = 20
+     5: E[0:00:00]-R[0:00:08]: Return=    -1.004, Steps=   5, Features = 20
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.3670, Sparsity=98.0%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.0%, 20 Features
+Total Policy Iteration Time = 0(s)
+  1000: >>> E[0:00:01]-R[0:00:11]: Return=    0.6285, Steps=12.5, Features = 20
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.5710, Sparsity=98.0%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.0%, 20 Features
+Total Policy Iteration Time = 0(s)
+  2000: >>> E[0:00:02]-R[0:00:09]: Return=    0.5878, Steps=13.24, Features = 20
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.2577, Sparsity=98.0%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.0%, 20 Features
+Total Policy Iteration Time = 0(s)
+  3000: >>> E[0:00:04]-R[0:00:08]: Return=    0.7078, Steps=13.16, Features = 20
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.1271, Sparsity=98.0%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.0%, 20 Features
+Total Policy Iteration Time = 1(s)
+  4000: >>> E[0:00:05]-R[0:00:07]: Return=     0.589, Steps=12.04, Features = 20
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.0292, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  5000: >>> E[0:00:06]-R[0:00:06]: Return=    0.7472, Steps=13.8, Features = 20
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.9336, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  6000: >>> E[0:00:08]-R[0:00:05]: Return=    0.5486, Steps=12.44, Features = 20
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.8672, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  7000: >>> E[0:00:10]-R[0:00:04]: Return=    0.7465, Steps=14.52, Features = 20
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.8176, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  8000: >>> E[0:00:12]-R[0:00:03]: Return=    0.6278, Steps=13.16, Features = 20
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.7994, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  9000: >>> E[0:00:13]-R[0:00:01]: Return=    0.6289, Steps=12.08, Features = 20
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.7732, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+ 10000: >>> E[0:00:15]-R[0:00:00]: Return=    0.6288, Steps=12.22, Features = 20
+Total Experiment Duration 0:00:15
+     0: >>> E[0:00:00]-R[?]: Return=    -1.006, Steps=6.64, Features = 20
+     5: E[0:00:00]-R[0:00:11]: Return=    -1.004, Steps=   5, Features = 20
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.3670, Sparsity=98.0%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.0%, 20 Features
+Total Policy Iteration Time = 0(s)
+  1000: >>> E[0:00:01]-R[0:00:09]: Return=    0.6285, Steps=12.5, Features = 20
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.5710, Sparsity=98.0%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.0%, 20 Features
+Total Policy Iteration Time = 0(s)
+  2000: >>> E[0:00:02]-R[0:00:07]: Return=    0.5878, Steps=13.24, Features = 20
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.2577, Sparsity=98.0%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.0%, 20 Features
+Total Policy Iteration Time = 0(s)
+  3000: >>> E[0:00:03]-R[0:00:07]: Return=    0.7078, Steps=13.16, Features = 20
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.1271, Sparsity=98.0%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.0%, 20 Features
+Total Policy Iteration Time = 0(s)
+  4000: >>> E[0:00:04]-R[0:00:06]: Return=     0.589, Steps=12.04, Features = 20
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.0292, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  5000: >>> E[0:00:05]-R[0:00:05]: Return=    0.7472, Steps=13.8, Features = 20
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.9336, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  6000: >>> E[0:00:07]-R[0:00:04]: Return=    0.5486, Steps=12.44, Features = 20
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.8672, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  7000: >>> E[0:00:08]-R[0:00:03]: Return=    0.7465, Steps=14.52, Features = 20
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.8176, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  8000: >>> E[0:00:09]-R[0:00:02]: Return=    0.6278, Steps=13.16, Features = 20
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.7994, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+  9000: >>> E[0:00:11]-R[0:00:01]: Return=    0.6289, Steps=12.08, Features = 20
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.7732, Sparsity=97.9%, 20 Features
+2: 0(s), ||w1-w2|| = 0.0000, Sparsity=97.9%, 20 Features
+Total Policy Iteration Time = 1(s)
+ 10000: >>> E[0:00:12]-R[0:00:00]: Return=    0.6288, Steps=12.22, Features = 20
+Total Experiment Duration 0:00:12
+     0: >>> E[0:00:00]-R[?]: Return=    0.4264, Steps=454.48, Features = 54
+   194: E[0:00:00]-R[0:00:08]: Return=     0.807, Steps= 194, Features = 54
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.8525, Sparsity=99.0%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3532, Sparsity=99.0%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0519, Sparsity=99.0%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.0%, 54 Features
+Total Policy Iteration Time = 1(s)
+  1000: >>> E[0:00:02]-R[0:00:14]: Return=    0.9512, Steps=49.84, Features = 54
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.6976, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3118, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0848, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0105, Sparsity=98.8%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  2000: >>> E[0:00:03]-R[0:00:13]: Return=     0.962, Steps=38.96, Features = 54
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.2522, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.1342, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0192, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  3000: >>> E[0:00:05]-R[0:00:12]: Return=    0.9525, Steps=48.48, Features = 54
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.5027, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.6829, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0737, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0241, Sparsity=98.7%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  4000: >>> E[0:00:07]-R[0:00:10]: Return=    0.9667, Steps=34.32, Features = 54
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.4242, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0515, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0221, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  5000: >>> E[0:00:09]-R[0:00:09]: Return=    0.9756, Steps=25.4, Features = 54
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.1573, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0702, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0223, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  6000: >>> E[0:00:11]-R[0:00:07]: Return=    0.9754, Steps=25.56, Features = 54
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.9529, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0672, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0052, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  7000: >>> E[0:00:13]-R[0:00:06]: Return=    0.9747, Steps=26.28, Features = 54
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.7582, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0451, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0143, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  8000: >>> E[0:00:15]-R[0:00:04]: Return=    0.9752, Steps=25.8, Features = 54
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6658, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2534, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0187, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  9000: >>> E[0:00:18]-R[0:00:02]: Return=    0.9755, Steps=25.52, Features = 54
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 2(s), ||w1-w2|| = 1.6016, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2147, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0130, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+ 10000: >>> E[0:00:21]-R[0:00:00]: Return=    0.9758, Steps=25.2, Features = 54
+Total Experiment Duration 0:00:21
+     0: >>> E[0:00:00]-R[?]: Return=    0.4264, Steps=454.48, Features = 54
+   194: E[0:00:00]-R[0:00:06]: Return=     0.807, Steps= 194, Features = 54
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.8525, Sparsity=99.0%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3532, Sparsity=99.0%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0519, Sparsity=99.0%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.0%, 54 Features
+Total Policy Iteration Time = 1(s)
+  1000: >>> E[0:00:01]-R[0:00:12]: Return=    0.9512, Steps=49.84, Features = 54
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.6976, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3118, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0848, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0105, Sparsity=98.8%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  2000: >>> E[0:00:03]-R[0:00:12]: Return=     0.962, Steps=38.96, Features = 54
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.2522, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.1342, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0192, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  3000: >>> E[0:00:05]-R[0:00:11]: Return=    0.9525, Steps=48.48, Features = 54
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.5027, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.6829, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0737, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0241, Sparsity=98.7%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  4000: >>> E[0:00:07]-R[0:00:10]: Return=    0.9667, Steps=34.32, Features = 54
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.4242, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0515, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0221, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  5000: >>> E[0:00:09]-R[0:00:09]: Return=    0.9756, Steps=25.4, Features = 54
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.1573, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0702, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0223, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  6000: >>> E[0:00:11]-R[0:00:07]: Return=    0.9754, Steps=25.56, Features = 54
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.9529, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0672, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0052, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  7000: >>> E[0:00:13]-R[0:00:05]: Return=    0.9747, Steps=26.28, Features = 54
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.7582, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0451, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0143, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  8000: >>> E[0:00:15]-R[0:00:04]: Return=    0.9752, Steps=25.8, Features = 54
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6658, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2534, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0187, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  9000: >>> E[0:00:17]-R[0:00:02]: Return=    0.9755, Steps=25.52, Features = 54
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6016, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2147, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0130, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+ 10000: >>> E[0:00:20]-R[0:00:00]: Return=    0.9758, Steps=25.2, Features = 54
+Total Experiment Duration 0:00:20
+     0: >>> E[0:00:00]-R[?]: Return=    0.4264, Steps=454.48, Features = 54
+   194: E[0:00:00]-R[0:00:08]: Return=     0.807, Steps= 194, Features = 54
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.8525, Sparsity=99.0%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3532, Sparsity=99.0%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0519, Sparsity=99.0%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.0%, 54 Features
+Total Policy Iteration Time = 1(s)
+  1000: >>> E[0:00:02]-R[0:00:14]: Return=    0.9512, Steps=49.84, Features = 54
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.6976, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3118, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0848, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0105, Sparsity=98.8%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  2000: >>> E[0:00:03]-R[0:00:14]: Return=     0.962, Steps=38.96, Features = 54
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.2522, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.1342, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0192, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  3000: >>> E[0:00:05]-R[0:00:12]: Return=    0.9525, Steps=48.48, Features = 54
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.5027, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.6829, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0737, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0241, Sparsity=98.7%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  4000: >>> E[0:00:07]-R[0:00:11]: Return=    0.9667, Steps=34.32, Features = 54
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.4242, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0515, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0221, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  5000: >>> E[0:00:09]-R[0:00:09]: Return=    0.9756, Steps=25.4, Features = 54
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.1573, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0702, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0223, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  6000: >>> E[0:00:11]-R[0:00:08]: Return=    0.9754, Steps=25.56, Features = 54
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.9529, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0672, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0052, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  7000: >>> E[0:00:14]-R[0:00:06]: Return=    0.9747, Steps=26.28, Features = 54
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.7582, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0451, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0143, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  8000: >>> E[0:00:16]-R[0:00:04]: Return=    0.9752, Steps=25.8, Features = 54
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6658, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2534, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0187, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  9000: >>> E[0:00:19]-R[0:00:02]: Return=    0.9755, Steps=25.52, Features = 54
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6016, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2147, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0130, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+ 10000: >>> E[0:00:22]-R[0:00:00]: Return=    0.9758, Steps=25.2, Features = 54
+Total Experiment Duration 0:00:22
+     0: >>> E[0:00:00]-R[?]: Return=    0.4264, Steps=454.48, Features = 54
+   194: E[0:00:00]-R[0:00:05]: Return=     0.807, Steps= 194, Features = 54
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.8525, Sparsity=99.0%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3532, Sparsity=99.0%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0519, Sparsity=99.0%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.0%, 54 Features
+Total Policy Iteration Time = 1(s)
+  1000: >>> E[0:00:01]-R[0:00:13]: Return=    0.9512, Steps=49.84, Features = 54
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.6976, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3118, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0848, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0105, Sparsity=98.8%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  2000: >>> E[0:00:04]-R[0:00:14]: Return=     0.962, Steps=38.96, Features = 54
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.2522, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.1342, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0192, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  3000: >>> E[0:00:05]-R[0:00:12]: Return=    0.9525, Steps=48.48, Features = 54
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.5027, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.6829, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0737, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0241, Sparsity=98.7%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  4000: >>> E[0:00:07]-R[0:00:11]: Return=    0.9667, Steps=34.32, Features = 54
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.4242, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0515, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0221, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  5000: >>> E[0:00:09]-R[0:00:09]: Return=    0.9756, Steps=25.4, Features = 54
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.1573, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0702, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0223, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  6000: >>> E[0:00:11]-R[0:00:07]: Return=    0.9754, Steps=25.56, Features = 54
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.9529, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0672, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0052, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  7000: >>> E[0:00:13]-R[0:00:05]: Return=    0.9747, Steps=26.28, Features = 54
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.7582, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0451, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0143, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  8000: >>> E[0:00:15]-R[0:00:04]: Return=    0.9752, Steps=25.8, Features = 54
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6658, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2534, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0187, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  9000: >>> E[0:00:17]-R[0:00:02]: Return=    0.9755, Steps=25.52, Features = 54
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6016, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2147, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0130, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+ 10000: >>> E[0:00:19]-R[0:00:00]: Return=    0.9758, Steps=25.2, Features = 54
+Total Experiment Duration 0:00:19
+     0: >>> E[0:00:00]-R[?]: Return=    0.4264, Steps=454.48, Features = 54
+   194: E[0:00:00]-R[0:00:07]: Return=     0.807, Steps= 194, Features = 54
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.8525, Sparsity=99.0%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3532, Sparsity=99.0%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0519, Sparsity=99.0%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.0%, 54 Features
+Total Policy Iteration Time = 1(s)
+  1000: >>> E[0:00:02]-R[0:00:15]: Return=    0.9512, Steps=49.84, Features = 54
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.6976, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3118, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0848, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0105, Sparsity=98.8%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  2000: >>> E[0:00:03]-R[0:00:12]: Return=     0.962, Steps=38.96, Features = 54
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.2522, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.1342, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0192, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  3000: >>> E[0:00:04]-R[0:00:10]: Return=    0.9525, Steps=48.48, Features = 54
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.5027, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.6829, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0737, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0241, Sparsity=98.7%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  4000: >>> E[0:00:06]-R[0:00:09]: Return=    0.9667, Steps=34.32, Features = 54
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.4242, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0515, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0221, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  5000: >>> E[0:00:08]-R[0:00:08]: Return=    0.9756, Steps=25.4, Features = 54
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.1573, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0702, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0223, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  6000: >>> E[0:00:09]-R[0:00:06]: Return=    0.9754, Steps=25.56, Features = 54
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.9529, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0672, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0052, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  7000: >>> E[0:00:11]-R[0:00:05]: Return=    0.9747, Steps=26.28, Features = 54
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.7582, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0451, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0143, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  8000: >>> E[0:00:13]-R[0:00:03]: Return=    0.9752, Steps=25.8, Features = 54
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6658, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2534, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0187, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  9000: >>> E[0:00:15]-R[0:00:02]: Return=    0.9755, Steps=25.52, Features = 54
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6016, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2147, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0130, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+ 10000: >>> E[0:00:17]-R[0:00:00]: Return=    0.9758, Steps=25.2, Features = 54
+Total Experiment Duration 0:00:17
+     0: >>> E[0:00:00]-R[?]: Return=    0.4264, Steps=454.48, Features = 54
+   194: E[0:00:00]-R[0:00:05]: Return=     0.807, Steps= 194, Features = 54
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.8525, Sparsity=99.0%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3532, Sparsity=99.0%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0519, Sparsity=99.0%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.0%, 54 Features
+Total Policy Iteration Time = 1(s)
+  1000: >>> E[0:00:01]-R[0:00:11]: Return=    0.9512, Steps=49.84, Features = 54
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 1.6976, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.3118, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0848, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0105, Sparsity=98.8%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  2000: >>> E[0:00:03]-R[0:00:11]: Return=     0.962, Steps=38.96, Features = 54
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.2522, Sparsity=98.8%, 54 Features
+2: 0(s), ||w1-w2|| = 0.1342, Sparsity=98.8%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0192, Sparsity=98.8%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.8%, 54 Features
+Total Policy Iteration Time = 1(s)
+  3000: >>> E[0:00:04]-R[0:00:09]: Return=    0.9525, Steps=48.48, Features = 54
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 2.5027, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.6829, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0737, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0241, Sparsity=98.7%, 54 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  4000: >>> E[0:00:06]-R[0:00:09]: Return=    0.9667, Steps=34.32, Features = 54
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.4242, Sparsity=98.7%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0515, Sparsity=98.7%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0221, Sparsity=98.7%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.7%, 54 Features
+Total Policy Iteration Time = 1(s)
+  5000: >>> E[0:00:08]-R[0:00:08]: Return=    0.9756, Steps=25.4, Features = 54
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 2.1573, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0702, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0223, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  6000: >>> E[0:00:10]-R[0:00:07]: Return=    0.9754, Steps=25.56, Features = 54
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.9529, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0672, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0052, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  7000: >>> E[0:00:12]-R[0:00:05]: Return=    0.9747, Steps=26.28, Features = 54
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.7582, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.0451, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0143, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 1(s)
+  8000: >>> E[0:00:14]-R[0:00:03]: Return=    0.9752, Steps=25.8, Features = 54
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6658, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2534, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0187, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+  9000: >>> E[0:00:16]-R[0:00:02]: Return=    0.9755, Steps=25.52, Features = 54
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.6016, Sparsity=98.6%, 54 Features
+2: 0(s), ||w1-w2|| = 0.2147, Sparsity=98.6%, 54 Features
+3: 0(s), ||w1-w2|| = 0.0130, Sparsity=98.6%, 54 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=98.6%, 54 Features
+Total Policy Iteration Time = 2(s)
+ 10000: >>> E[0:00:18]-R[0:00:00]: Return=    0.9758, Steps=25.2, Features = 54
+Total Experiment Duration 0:00:18
+     0: >>> E[0:00:00]-R[?]: Return=   -0.8792, Steps=979.32, Features = 121
+  1000: E[0:00:02]-R[0:00:16]: Return=        -1, Steps=1000, Features = 121
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 0.0737, Sparsity=99.6%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0336, Sparsity=99.6%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0120, Sparsity=99.6%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0015, Sparsity=99.6%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0005, Sparsity=99.6%, 121 Features
+Total Policy Iteration Time = 2(s)
+  1000: >>> E[0:00:03]-R[0:00:30]: Return=        -1, Steps=1000.0, Features = 121
+  2000: E[0:00:05]-R[0:00:20]: Return=        -1, Steps=1000, Features = 121
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 0.0551, Sparsity=99.6%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0318, Sparsity=99.6%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0065, Sparsity=99.6%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0123, Sparsity=99.6%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0034, Sparsity=99.6%, 121 Features
+Total Policy Iteration Time = 2(s)
+  2000: >>> E[0:00:07]-R[0:00:27]: Return=   -0.8402, Steps=960.36, Features = 121
+  3000: E[0:00:09]-R[0:00:20]: Return=        -1, Steps=1000, Features = 121
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.0173, Sparsity=99.6%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0316, Sparsity=99.6%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0155, Sparsity=99.6%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0126, Sparsity=99.6%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0027, Sparsity=99.6%, 121 Features
+Total Policy Iteration Time = 2(s)
+  3000: >>> E[0:00:10]-R[0:00:24]: Return=    0.8681, Steps=132.92, Features = 121
+  3742: E[0:00:12]-R[0:00:20]: Return=     0.691, Steps= 310, Features = 121
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.9445, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.1375, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0329, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0138, Sparsity=99.5%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  4000: >>> E[0:00:14]-R[0:00:21]: Return=    0.9544, Steps=46.6, Features = 121
+  4610: E[0:00:15]-R[0:00:18]: Return=     0.955, Steps=  46, Features = 121
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.5919, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.1589, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0257, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  5000: >>> E[0:00:18]-R[0:00:18]: Return=    0.9561, Steps=44.88, Features = 121
+  5582: E[0:00:19]-R[0:00:15]: Return=     0.957, Steps=  44, Features = 121
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.4670, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.1067, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0287, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0097, Sparsity=99.5%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  6000: >>> E[0:00:22]-R[0:00:15]: Return=    0.9564, Steps=44.64, Features = 121
+  6612: E[0:00:23]-R[0:00:12]: Return=     0.951, Steps=  50, Features = 121
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.3334, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.1360, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0371, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  7000: >>> E[0:00:26]-R[0:00:11]: Return=    0.9564, Steps=44.64, Features = 121
+  7600: E[0:00:27]-R[0:00:09]: Return=     0.953, Steps=  48, Features = 121
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.2590, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0555, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0065, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  8000: >>> E[0:00:30]-R[0:00:07]: Return=    0.9569, Steps=44.12, Features = 121
+  8616: E[0:00:31]-R[0:00:05]: Return=     0.951, Steps=  50, Features = 121
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.1961, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0494, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0052, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  9000: >>> E[0:00:34]-R[0:00:04]: Return=    0.9561, Steps=44.92, Features = 121
+  9646: E[0:00:35]-R[0:00:01]: Return=     0.919, Steps=  82, Features = 121
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.1198, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0971, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0024, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0003, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 3(s)
+ 10000: >>> E[0:00:38]-R[0:00:00]: Return=    0.9558, Steps=45.2, Features = 121
+Total Experiment Duration 0:00:38
+     0: >>> E[0:00:00]-R[?]: Return=   -0.8792, Steps=979.32, Features = 121
+     0: >>> E[0:00:00]-R[?]: Return=   -0.8792, Steps=979.32, Features = 121
+  1000: E[0:03:08]-R[0:28:13]: Return=        -1, Steps=1000, Features = 121
+============================
+Running LSPI with 1000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 0(s), ||w1-w2|| = 0.0737, Sparsity=99.6%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0336, Sparsity=99.6%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0120, Sparsity=99.6%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0015, Sparsity=99.6%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0005, Sparsity=99.6%, 121 Features
+Total Policy Iteration Time = 2(s)
+  1000: >>> E[0:03:10]-R[0:28:29]: Return=        -1, Steps=1000.0, Features = 121
+  2000: E[0:06:04]-R[0:24:16]: Return=        -1, Steps=1000, Features = 121
+============================
+Running LSPI with 2000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.0551, Sparsity=99.6%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0318, Sparsity=99.6%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0065, Sparsity=99.6%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0123, Sparsity=99.6%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0034, Sparsity=99.6%, 121 Features
+Total Policy Iteration Time = 2(s)
+  2000: >>> E[0:06:06]-R[0:24:24]: Return=   -0.8402, Steps=960.36, Features = 121
+  3000: E[0:09:00]-R[0:21:01]: Return=        -1, Steps=1000, Features = 121
+============================
+Running LSPI with 3000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 0.0173, Sparsity=99.6%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0316, Sparsity=99.6%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0155, Sparsity=99.6%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0126, Sparsity=99.6%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0027, Sparsity=99.6%, 121 Features
+Total Policy Iteration Time = 2(s)
+  3000: >>> E[0:09:02]-R[0:21:06]: Return=    0.8681, Steps=132.92, Features = 121
+  3118: E[0:09:23]-R[0:20:43]: Return=     0.883, Steps= 118, Features = 121
+  3306: E[0:09:57]-R[0:20:08]: Return=     0.813, Steps= 188, Features = 121
+  3432: E[0:10:19]-R[0:19:44]: Return=     0.875, Steps= 126, Features = 121
+  3742: E[0:11:14]-R[0:18:47]: Return=     0.691, Steps= 310, Features = 121
+  3988: E[0:11:58]-R[0:18:02]: Return=     0.755, Steps= 246, Features = 121
+============================
+Running LSPI with 4000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.9445, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.1375, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0329, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0138, Sparsity=99.5%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  4000: >>> E[0:12:02]-R[0:18:03]: Return=    0.9544, Steps=46.6, Features = 121
+  4028: E[0:12:07]-R[0:17:58]: Return=     0.961, Steps=  40, Features = 121
+  4080: E[0:12:16]-R[0:17:48]: Return=     0.949, Steps=  52, Features = 121
+  4154: E[0:12:30]-R[0:17:35]: Return=     0.927, Steps=  74, Features = 121
+  4224: E[0:12:42]-R[0:17:22]: Return=     0.931, Steps=  70, Features = 121
+  4268: E[0:12:50]-R[0:17:14]: Return=     0.957, Steps=  44, Features = 121
+  4324: E[0:13:00]-R[0:17:04]: Return=     0.945, Steps=  56, Features = 121
+  4370: E[0:13:09]-R[0:16:56]: Return=     0.955, Steps=  46, Features = 121
+  4416: E[0:13:17]-R[0:16:48]: Return=     0.955, Steps=  46, Features = 121
+  4472: E[0:13:27]-R[0:16:38]: Return=     0.945, Steps=  56, Features = 121
+  4508: E[0:13:34]-R[0:16:32]: Return=     0.965, Steps=  36, Features = 121
+  4564: E[0:13:44]-R[0:16:22]: Return=     0.945, Steps=  56, Features = 121
+  4610: E[0:13:53]-R[0:16:14]: Return=     0.955, Steps=  46, Features = 121
+  4660: E[0:14:02]-R[0:16:04]: Return=     0.951, Steps=  50, Features = 121
+  4698: E[0:14:08]-R[0:15:58]: Return=     0.963, Steps=  38, Features = 121
+  4742: E[0:14:16]-R[0:15:50]: Return=     0.957, Steps=  44, Features = 121
+  4828: E[0:14:32]-R[0:15:34]: Return=     0.915, Steps=  86, Features = 121
+  4880: E[0:14:41]-R[0:15:25]: Return=     0.949, Steps=  52, Features = 121
+  4926: E[0:14:50]-R[0:15:17]: Return=     0.955, Steps=  46, Features = 121
+  4976: E[0:14:59]-R[0:15:07]: Return=     0.951, Steps=  50, Features = 121
+============================
+Running LSPI with 5000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.5919, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.1589, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0257, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  5000: >>> E[0:15:05]-R[0:15:05]: Return=    0.9561, Steps=44.88, Features = 121
+  5024: E[0:15:09]-R[0:15:01]: Return=     0.953, Steps=  48, Features = 121
+  5078: E[0:15:19]-R[0:14:51]: Return=     0.947, Steps=  54, Features = 121
+  5132: E[0:15:29]-R[0:14:41]: Return=     0.947, Steps=  54, Features = 121
+  5182: E[0:15:36]-R[0:14:30]: Return=     0.951, Steps=  50, Features = 121
+  5230: E[0:15:43]-R[0:14:20]: Return=     0.953, Steps=  48, Features = 121
+  5264: E[0:15:48]-R[0:14:13]: Return=     0.967, Steps=  34, Features = 121
+  5348: E[0:16:00]-R[0:13:55]: Return=     0.917, Steps=  84, Features = 121
+  5406: E[0:16:08]-R[0:13:43]: Return=     0.943, Steps=  58, Features = 121
+  5454: E[0:16:15]-R[0:13:33]: Return=     0.953, Steps=  48, Features = 121
+  5494: E[0:16:21]-R[0:13:24]: Return=     0.961, Steps=  40, Features = 121
+  5538: E[0:16:27]-R[0:13:15]: Return=     0.957, Steps=  44, Features = 121
+  5582: E[0:16:34]-R[0:13:06]: Return=     0.957, Steps=  44, Features = 121
+  5626: E[0:16:40]-R[0:12:58]: Return=     0.957, Steps=  44, Features = 121
+  5684: E[0:16:48]-R[0:12:46]: Return=     0.943, Steps=  58, Features = 121
+  5754: E[0:17:00]-R[0:12:32]: Return=     0.931, Steps=  70, Features = 121
+  5838: E[0:17:14]-R[0:12:17]: Return=     0.917, Steps=  84, Features = 121
+  5904: E[0:17:26]-R[0:12:06]: Return=     0.935, Steps=  66, Features = 121
+  5962: E[0:17:36]-R[0:11:55]: Return=     0.943, Steps=  58, Features = 121
+============================
+Running LSPI with 6000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.4670, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.1067, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0287, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0097, Sparsity=99.5%, 121 Features
+5: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  6000: >>> E[0:17:45]-R[0:11:50]: Return=    0.9564, Steps=44.64, Features = 121
+  6018: E[0:17:48]-R[0:11:46]: Return=     0.945, Steps=  56, Features = 121
+  6074: E[0:17:58]-R[0:11:37]: Return=     0.945, Steps=  56, Features = 121
+  6126: E[0:18:07]-R[0:11:27]: Return=     0.949, Steps=  52, Features = 121
+  6176: E[0:18:15]-R[0:11:18]: Return=     0.951, Steps=  50, Features = 121
+  6220: E[0:18:23]-R[0:11:10]: Return=     0.957, Steps=  44, Features = 121
+  6266: E[0:18:31]-R[0:11:02]: Return=     0.955, Steps=  46, Features = 121
+  6328: E[0:18:42]-R[0:10:51]: Return=     0.939, Steps=  62, Features = 121
+  6372: E[0:18:50]-R[0:10:43]: Return=     0.957, Steps=  44, Features = 121
+  6416: E[0:18:57]-R[0:10:35]: Return=     0.957, Steps=  44, Features = 121
+  6456: E[0:19:05]-R[0:10:28]: Return=     0.961, Steps=  40, Features = 121
+  6518: E[0:19:15]-R[0:10:17]: Return=     0.939, Steps=  62, Features = 121
+  6562: E[0:19:23]-R[0:10:09]: Return=     0.957, Steps=  44, Features = 121
+  6612: E[0:19:32]-R[0:10:00]: Return=     0.951, Steps=  50, Features = 121
+  6676: E[0:19:43]-R[0:09:49]: Return=     0.937, Steps=  64, Features = 121
+  6732: E[0:19:52]-R[0:09:39]: Return=     0.945, Steps=  56, Features = 121
+  6778: E[0:20:00]-R[0:09:31]: Return=     0.955, Steps=  46, Features = 121
+  6818: E[0:20:07]-R[0:09:23]: Return=     0.961, Steps=  40, Features = 121
+  6874: E[0:20:17]-R[0:09:13]: Return=     0.945, Steps=  56, Features = 121
+  6936: E[0:20:27]-R[0:09:02]: Return=     0.939, Steps=  62, Features = 121
+  6984: E[0:20:35]-R[0:08:53]: Return=     0.953, Steps=  48, Features = 121
+============================
+Running LSPI with 7000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.3334, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.1360, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0371, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  7000: >>> E[0:20:40]-R[0:08:51]: Return=    0.9564, Steps=44.64, Features = 121
+  7048: E[0:20:48]-R[0:08:43]: Return=     0.937, Steps=  64, Features = 121
+  7112: E[0:20:59]-R[0:08:31]: Return=     0.937, Steps=  64, Features = 121
+  7170: E[0:21:09]-R[0:08:21]: Return=     0.943, Steps=  58, Features = 121
+  7216: E[0:21:18]-R[0:08:13]: Return=     0.955, Steps=  46, Features = 121
+  7268: E[0:21:27]-R[0:08:04]: Return=     0.949, Steps=  52, Features = 121
+  7324: E[0:21:37]-R[0:07:54]: Return=     0.945, Steps=  56, Features = 121
+  7376: E[0:21:46]-R[0:07:45]: Return=     0.949, Steps=  52, Features = 121
+  7424: E[0:21:54]-R[0:07:36]: Return=     0.953, Steps=  48, Features = 121
+  7480: E[0:22:04]-R[0:07:26]: Return=     0.945, Steps=  56, Features = 121
+  7552: E[0:22:16]-R[0:07:13]: Return=     0.929, Steps=  72, Features = 121
+  7600: E[0:22:24]-R[0:07:04]: Return=     0.953, Steps=  48, Features = 121
+  7652: E[0:22:33]-R[0:06:55]: Return=     0.949, Steps=  52, Features = 121
+  7692: E[0:22:40]-R[0:06:48]: Return=     0.961, Steps=  40, Features = 121
+  7740: E[0:22:49]-R[0:06:40]: Return=     0.953, Steps=  48, Features = 121
+  7782: E[0:22:56]-R[0:06:32]: Return=     0.959, Steps=  42, Features = 121
+  7848: E[0:23:08]-R[0:06:21]: Return=     0.935, Steps=  66, Features = 121
+  7898: E[0:23:17]-R[0:06:12]: Return=     0.951, Steps=  50, Features = 121
+  7956: E[0:23:27]-R[0:06:01]: Return=     0.943, Steps=  58, Features = 121
+  7994: E[0:23:34]-R[0:05:55]: Return=     0.963, Steps=  38, Features = 121
+============================
+Running LSPI with 8000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.2590, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0555, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0065, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  8000: >>> E[0:23:37]-R[0:05:54]: Return=    0.9569, Steps=44.12, Features = 121
+  8034: E[0:23:43]-R[0:05:48]: Return=     0.961, Steps=  40, Features = 121
+  8076: E[0:23:50]-R[0:05:41]: Return=     0.959, Steps=  42, Features = 121
+  8132: E[0:24:00]-R[0:05:31]: Return=     0.945, Steps=  56, Features = 121
+  8190: E[0:24:11]-R[0:05:21]: Return=     0.943, Steps=  58, Features = 121
+  8234: E[0:24:19]-R[0:05:13]: Return=     0.957, Steps=  44, Features = 121
+  8288: E[0:24:28]-R[0:05:03]: Return=     0.947, Steps=  54, Features = 121
+  8340: E[0:24:37]-R[0:04:54]: Return=     0.949, Steps=  52, Features = 121
+  8390: E[0:24:45]-R[0:04:45]: Return=     0.951, Steps=  50, Features = 121
+  8450: E[0:24:56]-R[0:04:34]: Return=     0.941, Steps=  60, Features = 121
+  8514: E[0:25:07]-R[0:04:23]: Return=     0.937, Steps=  64, Features = 121
+  8566: E[0:25:16]-R[0:04:14]: Return=     0.949, Steps=  52, Features = 121
+  8616: E[0:25:25]-R[0:04:05]: Return=     0.951, Steps=  50, Features = 121
+  8682: E[0:25:37]-R[0:03:53]: Return=     0.935, Steps=  66, Features = 121
+  8726: E[0:25:45]-R[0:03:46]: Return=     0.957, Steps=  44, Features = 121
+  8778: E[0:25:54]-R[0:03:36]: Return=     0.949, Steps=  52, Features = 121
+  8812: E[0:26:00]-R[0:03:30]: Return=     0.967, Steps=  34, Features = 121
+  8884: E[0:26:13]-R[0:03:18]: Return=     0.929, Steps=  72, Features = 121
+  8938: E[0:26:23]-R[0:03:08]: Return=     0.947, Steps=  54, Features = 121
+  8992: E[0:26:32]-R[0:02:58]: Return=     0.947, Steps=  54, Features = 121
+============================
+Running LSPI with 9000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.1961, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0494, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0052, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0000, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+  9000: >>> E[0:26:36]-R[0:02:57]: Return=    0.9561, Steps=44.92, Features = 121
+  9030: E[0:26:41]-R[0:02:52]: Return=     0.963, Steps=  38, Features = 121
+  9066: E[0:26:47]-R[0:02:46]: Return=     0.965, Steps=  36, Features = 121
+  9156: E[0:27:03]-R[0:02:30]: Return=     0.911, Steps=  90, Features = 121
+  9200: E[0:27:11]-R[0:02:22]: Return=     0.957, Steps=  44, Features = 121
+  9240: E[0:27:18]-R[0:02:15]: Return=     0.961, Steps=  40, Features = 121
+  9310: E[0:27:30]-R[0:02:02]: Return=     0.931, Steps=  70, Features = 121
+  9370: E[0:27:40]-R[0:01:52]: Return=     0.941, Steps=  60, Features = 121
+  9422: E[0:27:50]-R[0:01:42]: Return=     0.949, Steps=  52, Features = 121
+  9466: E[0:27:58]-R[0:01:35]: Return=     0.957, Steps=  44, Features = 121
+  9522: E[0:28:07]-R[0:01:25]: Return=     0.945, Steps=  56, Features = 121
+  9564: E[0:28:14]-R[0:01:17]: Return=     0.959, Steps=  42, Features = 121
+  9646: E[0:28:29]-R[0:01:03]: Return=     0.919, Steps=  82, Features = 121
+  9700: E[0:28:39]-R[0:00:53]: Return=     0.947, Steps=  54, Features = 121
+  9768: E[0:28:51]-R[0:00:41]: Return=     0.933, Steps=  68, Features = 121
+  9810: E[0:28:58]-R[0:00:34]: Return=     0.959, Steps=  42, Features = 121
+  9860: E[0:29:08]-R[0:00:25]: Return=     0.951, Steps=  50, Features = 121
+  9906: E[0:29:16]-R[0:00:17]: Return=     0.955, Steps=  46, Features = 121
+  9958: E[0:29:25]-R[0:00:07]: Return=     0.949, Steps=  52, Features = 121
+============================
+Running LSPI with 10000 Samples
+============================
+Total LSTD Time = 0(s)
+Running Policy Iteration:
+1: 1(s), ||w1-w2|| = 1.1198, Sparsity=99.5%, 121 Features
+2: 0(s), ||w1-w2|| = 0.0971, Sparsity=99.5%, 121 Features
+3: 0(s), ||w1-w2|| = 0.0024, Sparsity=99.5%, 121 Features
+4: 0(s), ||w1-w2|| = 0.0003, Sparsity=99.5%, 121 Features
+Total Policy Iteration Time = 2(s)
+ 10000: >>> E[0:29:35]-R[0:00:00]: Return=    0.9558, Steps=45.2, Features = 121
+Total Experiment Duration 0:29:35

@@ -19,7 +19,8 @@ def RLVSI_preprocess(frame):
 
 import gym
 
-env = gym.make('IceHockey-v0')
+# env = gym.make('IceHockey-v0')
+env = gym.make('MountainCar-v0')
 
 num_episodes = 500
 num_steps = 15000

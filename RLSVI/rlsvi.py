@@ -56,8 +56,12 @@ class bayesian_regressor:
 
     # Sample and store a set of parameters from the learnt Gaussian posterior
     def sample_from_posterior(self):
-        pass
+        self.theta_sample = np.random.multivariate_normal(self.theta_est, self.cov_est, check_valid='ignore')
         # o.theta_sample = mvn_draw(sess, o.theta_est, o.cov_est)
+
+        # mvn_transform_op = tf.reshape(mmul(covmat, tf.reshape(eps, [-1, 1])), [-1]) + mu
+        # def mvn_draw(sess, m, s):
+        #     return sess.run(mvn_transform_op, feed_dict={mu: m, covmat: s, eps: rn.normal(0, 1, m.size)})
 
     # Get regression output for given input
     def evaluate(self, x):

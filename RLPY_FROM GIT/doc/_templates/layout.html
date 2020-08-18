@@ -1,0 +1,29 @@
+{% extends "!layout.html" %}
+
+
+{% block relbar1 %}
+<div style="background-color: white; text-align: left; padding: 10px 10px 25px 15px">
+<a href="{{ pathto('index') }}" style="float:left"><img src="{{
+    pathto("_static/ACL_logo.png", 1) }}" border="0" alt="RLPy"/></a>
+<h1>RLPy</h1>
+<div>The Reinforcement Learning Library for Education and Research</div>
+</div>
+{{ super() }}
+{% endblock %}
+
+{# put the sidebar before the body #}
+{% block sidebar1 %}{{ sidebar() }}{% endblock %}
+{% block sidebar2 %}{% endblock %}
+
+{% block footer %}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40370665-1', 'mit.edu');
+    ga('send', 'pageview');
+
+</script>
+{% endblock %}

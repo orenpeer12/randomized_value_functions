@@ -56,37 +56,38 @@ class LSPI(BatchAgent):
     re_iterations = 0
 
     def __init__(
-            self, policy, representation, discount_factor, max_window, steps_between_LSPI,
+            self, noise, policy, representation, discount_factor, max_window, steps_between_LSPI,
             lspi_iterations=5, tol_epsilon=1e-3, re_iterations=100, use_sparse=False):
-
+        self.noise = noise
         self.steps_between_LSPI = steps_between_LSPI
         self.tol_epsilon = tol_epsilon
         self.lspi_iterations = lspi_iterations
         self.re_iterations = re_iterations
         self.use_sparse = use_sparse
-
         # Make A and r incrementally if the representation can not expand
         self.fixedRep = not representation.isDynamic
         if self.fixedRep:
             f_size = representation.features_num * representation.actions_num
+            self.f_size = (f_size, 1)
+
             self.b = np.zeros((f_size, 1))
             self.A = np.zeros((f_size, f_size))
 
             # Cache calculated phi vectors
-            if self.use_sparse:
-                self.all_phi_s = sp.lil_matrix(
-                    (max_window, representation.features_num))
-                self.all_phi_ns = sp.lil_matrix(
-                    (max_window, representation.features_num))
-                self.all_phi_s_a = sp.lil_matrix((max_window, f_size))
-                self.all_phi_ns_na = sp.lil_matrix((max_window, f_size))
-            else:
-                self.all_phi_s = np.zeros(
-                    (max_window, representation.features_num))
-                self.all_phi_ns = np.zeros(
-                    (max_window, representation.features_num))
-                self.all_phi_s_a = np.zeros((max_window, f_size))
-                self.all_phi_ns_na = np.zeros((max_window, f_size))
+            # if self.use_sparse:
+            #     self.all_phi_s = sp.lil_matrix(
+            #         (max_window, representation.features_num))
+            #     self.all_phi_ns = sp.lil_matrix(
+            #         (max_window, representation.features_num))
+            #     self.all_phi_s_a = sp.lil_matrix((max_window, f_size))
+            #     self.all_phi_ns_na = sp.lil_matrix((max_window, f_size))
+            # else:
+            self.all_phi_s = np.zeros(
+                (max_window, representation.features_num))
+            self.all_phi_ns = np.zeros(
+                (max_window, representation.features_num))
+            self.all_phi_s_a = np.zeros((max_window, f_size))
+            self.all_phi_ns_na = np.zeros((max_window, f_size))
 
         super(LSPI, self).__init__(policy, representation, discount_factor, max_window)
 
@@ -158,6 +159,7 @@ class LSPI(BatchAgent):
             # Run Policy Iteration to change a_prime and recalculate weight_vec in a
             # loop
             td_errors = self.policyIteration()
+            self.noise *= 1  # OREN
             # Add new Features
             if Tools.hasFunction(self.representation, 'batchDiscover'):
                 added_feature = self.representation.batchDiscover(td_errors, self.all_phi_s[:self.samples_count, :], self.data_s[:self.samples_count, :])
@@ -196,15 +198,24 @@ class LSPI(BatchAgent):
 
             # Recalculate A matrix (b remains the same)
             # Solve for the new weight_vec
-            if self.use_sparse:
-                F2 = sp.csr_matrix(self.all_phi_ns_new_na[:self.samples_count, :])
-                A = F1.T * (F1 - discount_factor * F2)
-            else:
-                F2 = self.all_phi_ns_new_na[:self.samples_count, :]
-                A = np.dot(F1.T, F1 - discount_factor * F2)
+            # if self.use_sparse:
+            #     F2 = sp.csr_matrix(self.all_phi_ns_new_na[:self.samples_count, :])
+            #     A = F1.T * (F1 - discount_factor * F2)
+            # else:
+            F2 = self.all_phi_ns_new_na[:self.samples_count, :]
+            A = np.dot(F1.T, F1 - discount_factor * F2)
 
             A = Tools.regularize(A)
-            new_weight_vec, solve_time = Tools.solveLinear(A, self.b)
+            # noise = self.noise * np.random.randn(*self.data_r[:self.samples_count, :].shape) # OREN
+            noise = self.noise * np.random.randn(*self.f_size) # OREN
+            # b = np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :] + noise).reshape(-1, 1)  # OREN
+            b = (np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :]) + noise).reshape(-1, 1)  # OREN
+
+            new_weight_vec, solve_time = Tools.solveLinear(A, b) # OREN
+            # b = np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :]).reshape(-1, 1)  # ORIGINAL - MOD OREN (recalc b)
+            # new_weight_vec, solve_time = Tools.solveLinear(A, b) # ORIGINAL MOD OREN (recalc b)
+            # new_weight_vec, solve_time = Tools.solveLinear(A, self.b) # ORIGINAL
+
 
             # Calculate TD_Errors
             ####################
@@ -271,7 +282,13 @@ class LSPI(BatchAgent):
         A = Tools.regularize(self.A)
 
         # Calculate weight_vec
-        self.representation.weight_vec, solve_time = Tools.solveLinear(A, self.b)
+        # noise = self.noise * np.random.randn(*self.data_r[:self.samples_count, :].shape) # OREN
+        noise = self.noise * np.random.randn(*self.f_size)  # OREN
+        # b = np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :] + noise).reshape(-1, 1)  # OREN
+        b = (np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :]) + noise).reshape(-1, 1)  # OREN
+
+        self.representation.weight_vec, solve_time = Tools.solveLinear(A, b)    # OREN
+        # self.representation.weight_vec, solve_time = Tools.solveLinear(A, self.b) # THIS IS ORIGINAL
 
         # log solve time only if takes more than 1 second
         if solve_time > 1:

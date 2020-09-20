@@ -68,15 +68,16 @@ def available_matplotlib_backends():
 if module_exists('matplotlib'):
 
     import matplotlib
+    matplotlib.use('Tkagg')
     import matplotlib.backends
     import matplotlib.pyplot as plt
-    mpl_backends = available_matplotlib_backends()
-    if matplotlib_backend in mpl_backends:
+    # mpl_backends = available_matplotlib_backends()
+    # if matplotlib_backend in mpl_backends:
         # plt.switch_backend(matplotlib_backend)
-        pass
-    else:
-        print("Warning: Matplotlib backend", matplotlib_backend, "not available")
-        print("Available backends:", mpl_backends)
+        # pass
+    # else:
+    #     print("Warning: Matplotlib backend", matplotlib_backend, "not available")
+    #     print("Available backends:", mpl_backends)
     from matplotlib import pylab as pl
     import matplotlib.ticker as ticker
     from matplotlib import rc, colors

@@ -357,7 +357,7 @@ class Experiment(object):
         # Used to show the total time took the process
         self.start_time = clock()
         self.elapsed_time = 0
-        # do a first evaluation to get the quality of the inital policy
+        # do a first evaluation to get the quality of the initial policy
         self.evaluate(total_steps, episode_number, visualize_performance)
         self.total_eval_time = 0.
         terminal = True
@@ -507,7 +507,7 @@ class Experiment(object):
         self.results = rlpy.Tools.results.load_single(results_fn)
         return self.results
 
-    def plot(self, y="return", x="learning_steps", save=False):
+    def plot(self, y="return", x="learning_steps", title="", save=False):
         """Plots the performance of the experiment
         This function has only limited capabilities.
         For more advanced plotting of results consider
@@ -528,6 +528,7 @@ class Experiment(object):
         ylabel = labels[y] if y in labels else y
         plt.xlabel(xlabel, fontsize=16)
         plt.ylabel(ylabel, fontsize=16)
+        plt.title(title)
         if save:
             path = os.path.join(
                 self.full_path,
@@ -535,6 +536,7 @@ class Experiment(object):
             performance_fig.savefig(path, transparent=True, pad_inches=.1)
         plt.ioff()
         plt.show()
+
 
     def compile_path(self, path):
         """

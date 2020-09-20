@@ -5,6 +5,7 @@ from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
 from future import standard_library
+
 standard_library.install_aliases()
 __author__ = "William Dabney"
 
@@ -16,7 +17,7 @@ from rlpy.Experiments import Experiment
 import os
 
 
-def make_experiment(exp_id=1, path="./Results/Temp"):
+def make_experiment(noise, exp_id=1, path="./Results/Temp"):
     """
     Each file specifying an experimental setup should contain a
     make_experiment function which returns an instance of the Experiment
@@ -40,29 +41,43 @@ def make_experiment(exp_id=1, path="./Results/Temp"):
     # MAZE                = '/Domains/GridWorldMaps/1x3.txt'
     # maze = os.path.join(GridWorld.default_map_dir, '4x5.txt')
     # maze = os.path.join(GridWorld.default_map_dir, '6x9-Wall.txt')
-    maze = os.path.join(GridWorld.default_map_dir, '11x11-Rooms.txt')
+    # maze = os.path.join(GridWorld.default_map_dir, '11x11-Rooms.txt')
     # maze = os.path.join(GridWorld.default_map_dir, '10x10-12ftml.txt')
-    domain = GridWorld(maze, noise=0.3)
+    maze = os.path.join(GridWorld.default_map_dir, 'oren.txt')
+    domain = GridWorld(maze, noise=0.0)
     opt["domain"] = domain
 
     # Representation
     representation = Tabular(domain)
 
     # Policy
+    # policy = eGreedy(representation, epsilon=0)  # OREN
     policy = eGreedy(representation, epsilon=0.1)
+    # policy = eGreedy(representation, epsilon=0.3)
 
     # Agent
-    opt["agent"] = LSPI(policy, representation, domain.discount_factor,
-                 opt["max_steps"], 1000)
+    opt["agent"] = LSPI(noise, policy, representation, domain.discount_factor,
+                        opt["max_steps"], 300)
 
     experiment = Experiment(**opt)
     return experiment
 
+
 if __name__ == '__main__':
+    # noise = 0.0000001
+    # noise = 0.1
+    noise = 0
+    # noise = 5
+    # title = "eps0.0"
+    # title = "eps0.1"
+    # title = "eps0.5"
+    # title = "$\epsilon-greedy$ exploration, $\epsilon=0$"
+    title = "$\epsilon-greedy$ exploration, $\epsilon=0.1$"
+    # title = "b noise"
     path = "./Results/Temp/{domain}/{agent}/{representation}/"
-    experiment = make_experiment(1, path=path)
-    experiment.run(visualize_steps=True,  # should each learning step be shown?
+    experiment = make_experiment(exp_id=1, path=path, noise=noise)
+    experiment.run(visualize_steps=False,  # should each learning step be shown?
                    visualize_learning=False,  # show performance runs?
                    visualize_performance=False)  # show value function?
-    experiment.plot()
+    experiment.plot(save=True, title=title)
     experiment.save()

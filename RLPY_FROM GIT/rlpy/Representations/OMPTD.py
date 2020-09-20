@@ -12,7 +12,6 @@ from builtins import range
 from past.utils import old_div
 from .Representation import Representation
 import numpy as np
-from .iFDD import iFDD
 from rlpy.Tools import className, plt
 from copy import deepcopy
 

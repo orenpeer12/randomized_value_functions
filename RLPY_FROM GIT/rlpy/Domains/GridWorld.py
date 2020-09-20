@@ -61,7 +61,10 @@ class GridWorld(Domain):
     #: Reward constants
     GOAL_REWARD = +1
     PIT_REWARD = -1
-    STEP_REWARD = -.001
+    RIGHT_REWARD = -0.03   # OREN
+    # RIGHT_REWARD = -0.0   # OREN
+    # STEP_REWARD = -.001
+    STEP_REWARD = 0.0 # OREN
     #: Set by the domain = min(100,rows*cols)
     episodeCap = None
     #: Movement Noise
@@ -99,7 +102,8 @@ class GridWorld(Domain):
         # 2*self.ROWS*self.COLS, small values can cause problem for some
         # planning techniques
         if not self.episodeCap:
-            self.episodeCap = 1000
+            # self.episodeCap = 1000 # ORIGINAL
+            self.episodeCap = 100 # OREN
         else:
             self.episodeCap = episodeCap
         super(GridWorld, self).__init__()
@@ -151,6 +155,7 @@ class GridWorld(Domain):
                 vmax=self.MAX_RETURN)
             plt.xticks(np.arange(self.COLS), fontsize=12)
             plt.yticks(np.arange(self.ROWS), fontsize=12)
+            plt.title('Value and policy actions')
             # Create quivers for each action. 4 in total
             X = np.arange(self.ROWS) - self.SHIFT
             Y = np.arange(self.COLS)
@@ -310,7 +315,7 @@ class GridWorld(Domain):
         plt.draw()
 
     def step(self, a):
-        r = self.STEP_REWARD
+        r = self.STEP_REWARD + self.RIGHT_REWARD * (a == 3)
         ns = self.state.copy()
         if self.random_state.random_sample() < self.NOISE:
             # Random Move

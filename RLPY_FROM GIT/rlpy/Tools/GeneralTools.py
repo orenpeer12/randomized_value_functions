@@ -1068,7 +1068,7 @@ def pretty(X, format='%0.3f'):
     return ''.join(format % x for x in X)
 
 
-def regularize(A):
+def regularize(A, lamda):
     """ Regularize the numpy arrayLike object ``A``.
     Adds REGULARIZATION*I To A, where I is identity matrix and REGULARIZATION
     is defined in GeneralTools.py.\n
@@ -1082,12 +1082,12 @@ def regularize(A):
     x, y = A.shape
     assert x == y  # Square matrix
     if sp.issparse(A):
-        A = A + REGULARIZATION * sp.eye(x, x)
+        A = A + lamda * sp.eye(x, x)
         # print 'REGULARIZE', type(A)
     else:
         # print 'REGULARIZE', type(A)
         for i in range(x):
-            A[i, i] += REGULARIZATION
+            A[i, i] += lamda
     return A
 
 

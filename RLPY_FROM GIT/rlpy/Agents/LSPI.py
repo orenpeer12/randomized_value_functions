@@ -56,9 +56,14 @@ class LSPI(BatchAgent):
     re_iterations = 0
 
     def __init__(
-            self, noise, policy, representation, discount_factor, max_window, steps_between_LSPI,
+            self, params, policy, representation, discount_factor, max_window, steps_between_LSPI,
             lspi_iterations=5, tol_epsilon=1e-3, re_iterations=100, use_sparse=False):
-        self.noise = noise
+
+        self.sample = params['sample']
+        self.noise = params['noise']
+        self.lamda = params['lambda']
+        self.sigma = params['sigma']
+
         self.steps_between_LSPI = steps_between_LSPI
         self.tol_epsilon = tol_epsilon
         self.lspi_iterations = lspi_iterations
@@ -159,7 +164,6 @@ class LSPI(BatchAgent):
             # Run Policy Iteration to change a_prime and recalculate weight_vec in a
             # loop
             td_errors = self.policyIteration()
-            self.noise *= 1  # OREN
             # Add new Features
             if Tools.hasFunction(self.representation, 'batchDiscover'):
                 added_feature = self.representation.batchDiscover(td_errors, self.all_phi_s[:self.samples_count, :], self.data_s[:self.samples_count, :])
@@ -205,13 +209,16 @@ class LSPI(BatchAgent):
             F2 = self.all_phi_ns_new_na[:self.samples_count, :]
             A = np.dot(F1.T, F1 - discount_factor * F2)
 
-            A = Tools.regularize(A)
+            A = Tools.regularize(A, self.lamda)
+
             # noise = self.noise * np.random.randn(*self.data_r[:self.samples_count, :].shape) # OREN
             noise = self.noise * np.random.randn(*self.f_size) # OREN
             # b = np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :] + noise).reshape(-1, 1)  # OREN
             b = (np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :]) + noise).reshape(-1, 1)  # OREN
 
-            new_weight_vec, solve_time = Tools.solveLinear(A, b) # OREN
+
+
+            new_weight_vec, solve_time = Tools.solveLinear(A, b)  # OREN
             # b = np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :]).reshape(-1, 1)  # ORIGINAL - MOD OREN (recalc b)
             # new_weight_vec, solve_time = Tools.solveLinear(A, b) # ORIGINAL MOD OREN (recalc b)
             # new_weight_vec, solve_time = Tools.solveLinear(A, self.b) # ORIGINAL
@@ -236,10 +243,12 @@ class LSPI(BatchAgent):
                                                                                         A),
                                                                                     self.representation.features_num))
             lspi_iteration += 1
-
         self.logger.info(
             'Total Policy Iteration Time = %0.0f(s)' %
             Tools.deltaT(start_time))
+        if self.sample:
+            weight_cov = np.linalg.inv((1 / (self.sigma**2)) * (A.T @ A) + self.lamda * np.eye(A.shape[0]))
+            self.representation.weight_vec = np.random.multivariate_normal(self.representation.weight_vec, weight_cov)  # OREN  # OREN new
         return td_errors
 
     def LSTD(self):
@@ -279,7 +288,7 @@ class LSPI(BatchAgent):
                 self.b = np.dot(F1.T, R).reshape(-1, 1)
                 self.A = np.dot(F1.T, F1 - discount_factor * F2)
 
-        A = Tools.regularize(self.A)
+        A = Tools.regularize(self.A, lamda=self.lamda)
 
         # Calculate weight_vec
         # noise = self.noise * np.random.randn(*self.data_r[:self.samples_count, :].shape) # OREN
@@ -287,8 +296,8 @@ class LSPI(BatchAgent):
         # b = np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :] + noise).reshape(-1, 1)  # OREN
         b = (np.dot(self.all_phi_s_a[:self.samples_count, :].T, self.data_r[:self.samples_count, :]) + noise).reshape(-1, 1)  # OREN
 
-        self.representation.weight_vec, solve_time = Tools.solveLinear(A, b)    # OREN
         # self.representation.weight_vec, solve_time = Tools.solveLinear(A, self.b) # THIS IS ORIGINAL
+        self.representation.weight_vec, solve_time = Tools.solveLinear(A, b)
 
         # log solve time only if takes more than 1 second
         if solve_time > 1:

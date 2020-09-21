@@ -106,6 +106,7 @@ class Representation(object):
         self.discretization = discretization
         try:
             self.weight_vec = np.zeros(self.features_num * self.actions_num)
+            self.weight_cov = np.zeros((self.features_num * self.actions_num, self.features_num * self.actions_num))
         except MemoryError as m:
             print(
                 "Unable to allocate weights of size: %d\n" %
